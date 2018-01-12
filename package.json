@@ -1,0 +1,32 @@
+{
+  "name": "conv-weight",
+  "version": "0.1.0",
+  "description": "module to do weight conversion published in npm",
+  "main": "dist/src/conv-weight.js",
+  "scripts": {
+    "build": "babel src/conv-weight.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvbarbosa/conv-weight.git"
+  },
+  "keywords": [
+    "converter",
+    "peso",
+    "weight",
+    "platzi"
+  ],
+  "author": "Andres Barbosa <ing.abarbosa@gmail.com> (https://twitter.com/AndresBarbsa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvbarbosa/conv-weight/issues"
+  },
+  "homepage": "https://github.com/alvbarbosa/conv-weight#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
